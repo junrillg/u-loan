@@ -3,7 +3,7 @@ use Mix.Config
 # Configure your database
 config :uLoan, ULoan.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "root",
   database: "uloan_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
