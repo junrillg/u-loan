@@ -1,4 +1,4 @@
-defmodule ULoanWeb.PageController do
+defmodule ULoanWeb.AdminController do
   use ULoanWeb, :controller
 
   def index(conn, _params) do
