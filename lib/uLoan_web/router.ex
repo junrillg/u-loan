@@ -17,6 +17,7 @@ defmodule ULoanWeb.Router do
     pipe_through :browser
 
     get "/", AdminController, :index
+    get "/login", LoginController, :index
   end
 
   # Other scopes may use custom stacks.
